@@ -63,10 +63,10 @@ body{
     flex-direction: column;
     gap: 1.2rem;
 }
-.content h4{
-    color: white;
+.content h4::before{
+    /* color: white; */
 }
-.content p{
+.content .bio{
     color: rgb(139, 172, 218);
     font-weight: 300;
 }
@@ -104,8 +104,25 @@ body{
     width: 2.5rem;
 }
 .creator p{
-    color: rgb(139, 172, 218);
+    /* color: rgb(0, 79, 189); */
 }
-.creator p span{
+.creator p span::before{
+    /* color: white; */
+}
+.content .value:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.creator .name:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.creator .name{
     color: white;
+}
+.content .value{
+    color: white;
+}
+.creator .owner{
+    color: rgb(139, 172, 218);
 }
