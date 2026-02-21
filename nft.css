@@ -63,9 +63,7 @@ body{
     flex-direction: column;
     gap: 1.2rem;
 }
-.content h4::before{
-    /* color: white; */
-}
+
 .content .bio{
     color: rgb(139, 172, 218);
     font-weight: 300;
@@ -103,12 +101,6 @@ body{
 .creator img{
     width: 2.5rem;
 }
-.creator p{
-    /* color: rgb(0, 79, 189); */
-}
-.creator p span::before{
-    /* color: white; */
-}
 .content .value:hover{
     color: aqua;
     cursor: pointer;
@@ -125,4 +117,4 @@ body{
 }
 .creator .owner{
     color: rgb(139, 172, 218);
-}
+}  
